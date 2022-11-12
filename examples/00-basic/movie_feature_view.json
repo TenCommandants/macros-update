@@ -1,0 +1,27 @@
+{
+    "name": "movie_view",
+    "output_type": "node_feature",
+    "node_type": "Movie",
+    "operators": {
+        "retrieval_op": {
+            "type": "feature_retrieval",
+            "dimensions": [
+                {
+                    "feature_name": "title",
+                    "feature_type": "string"
+                },
+                {
+                    "feature_name": "released",
+                    "feature_type": "int"
+                },
+                {
+                    "feature_name": "tagline",
+                    "feature_type": "string"
+                }
+            ]
+        }
+    },
+    "pipeline": [
+        "retrieval_op"
+    ]
+}

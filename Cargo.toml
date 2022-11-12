@@ -1,0 +1,26 @@
+[package]
+name = "gfs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = { version = "0.4.22", features = ["serde"] }
+clap = { version = "4.0.22", features = ["derive"] }
+env_logger = "0.9.3"
+etcd-rs = "1.0.0-alpha.2"
+indoc = "1.0.7"
+log = "0.4.17"
+neo4rs = "0.5.9"
+rusqlite = { version = "0.28.0", features = ["bundled"] }
+serde = { version = "1.0.144", features = ["derive", "rc"] }
+serde_json = "1.0.83"
+typetag = "0.2"
+tokio = { version = "1.20.1", features = ["full"] }
+bolt-client = { version = "0.10.1", features = ["tokio-stream"] }
+tokio-util = { version = "0.7.4", features = ["compat"] }
+
+[dev-dependencies]
+assert_cmd = "2.0.6"
+predicates = "2.1.2"

@@ -1,0 +1,26 @@
+{
+    "project_name": "movie",
+    "gdb": {
+        "name": "neo4j",
+        "uri": "127.0.0.1:7687",
+        "user": "neo4j",
+        "password": "neo4jneo4j"
+    },
+    "data_sources": [
+        {
+            "name": "movies",
+            "type": "cypher",
+            "path": "./data/movies.cypher"
+        }
+    ],
+    "online_store": [
+        {
+            "name": "movies",
+            "type": "sqlite",
+            "path": "./data/movies.db"
+        }
+    ],
+    "feature_views": [
+        "movie_feature_view.json"
+    ]
+}
