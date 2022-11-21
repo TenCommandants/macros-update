@@ -17,7 +17,7 @@ rusqlite = { version = "0.28.0", features = ["bundled"] }
 serde = { version = "1.0.144", features = ["derive", "rc"] }
 serde_json = "1.0.83"
 typetag = "0.2"
-tokio = { version = "1.20.1", features = ["full"] }
+tokio = { version = "1.22.0", features = ["full"] }
 bolt-client = { version = "0.10.1", features = ["tokio-stream"] }
 tokio-util = { version = "0.7.4", features = ["compat"] }
 
