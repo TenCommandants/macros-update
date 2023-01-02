@@ -18,7 +18,7 @@ serde = { version = "1.0.144", features = ["derive", "rc"] }
 serde_json = "1.0.83"
 typetag = "0.2"
 tokio = { version = "1.20.1", features = ["full"] }
-bolt-client = { version = "0.10.1", features = ["tokio-stream"] }
+bolt-client = { version = "0.11.0", features = ["tokio-stream"] }
 tokio-util = { version = "0.7.4", features = ["compat"] }
 
 [dev-dependencies]
