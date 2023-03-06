@@ -10,7 +10,7 @@ chrono = { version = "0.4.22", features = ["serde"] }
 clap = { version = "4.0.22", features = ["derive"] }
 env_logger = "0.9.3"
 etcd-rs = "1.0.0-alpha.2"
-indoc = "1.0.7"
+indoc = "2.0.1"
 log = "0.4.17"
 neo4rs = "0.5.9"
 rusqlite = { version = "0.28.0", features = ["bundled"] }
